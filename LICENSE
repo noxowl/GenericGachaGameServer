@@ -1,0 +1,14 @@
+All Rights Reserved.
+
+Copyright © 2025 Suyeong RHIE.
+
+This repository contains original code written by Suyeong RHIE for the GenericGachaGameServer project.
+
+All rights to the original code are reserved by the author. No part of this repository may be reproduced, modified, distributed, or otherwise used without explicit written permission from the author,except as provided by the licenses of the third-party open source libraries included herein.
+
+The project makes use of the following open source libraries, which are subject to their respective licenses:
+
+- axum: Licensed under the MIT license (see http://opensource.org/licenses/MIT)
+- SeaORM: Licensed under the MIT license (see http://opensource.org/licenses/MIT)
+
+For full details on these licenses, please refer to the LICENSE files in the respective library distributions.

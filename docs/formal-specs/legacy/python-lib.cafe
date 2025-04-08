@@ -1,0 +1,26 @@
+input type.cafe
+
+mod! DATETIME {
+    pr(STRING)
+    pr(PYTHON-NONE)
+    [DateTime TimeZoneInfo < DateTime&TZ]
+
+    op now : -> DateTime .
+    op now : None -> DateTime .
+    op now : TimeZoneInfo -> DateTime&TZ .
+    op utcnow : -> DateTime .
+
+    op utc : -> TimeZoneInfo .
+    op local : -> TimeZoneInfo .
+    op tzname : TimeZoneInfo -> String .
+}
+
+open DATETIME .
+    red now .
+    red now(none) .
+    red now(utc) .
+    red now(local) .
+    red utcnow .
+    red tzname(utc) .
+    red tzname(local) .
+close .
